@@ -1,0 +1,9 @@
+Original Image		:128x128
+Pixels			:16384
+Downsampled Image	:64x64
+Pixels			:4096
+
+Error zero pixels	:3925
+Error one  pixels	:171
+
+mean square root error(per pixel)	:0.00319

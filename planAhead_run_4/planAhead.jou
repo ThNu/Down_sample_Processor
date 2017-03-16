@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Sun Aug 21 14:45:25 2016
+# Process ID: 2844
+# Log file: E:/Processor_project/processor7777/planAhead_run_4/planAhead.log
+# Journal file: E:/Processor_project/processor7777/planAhead_run_4/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source E:/Processor_project/processor7777/pa.fromNetlist.tcl
+startgroup
+set_property package_pin N12 [get_ports {led[7]}]
+endgroup
+save_constraints

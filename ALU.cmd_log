@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "E:/Processor_project/processor7777/ALU.xst" -ofn "E:/Processor_project/processor7777/ALU.syr" 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim ALU.ngc ALU_synthesis.v 

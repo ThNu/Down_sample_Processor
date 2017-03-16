@@ -1,0 +1,562 @@
+xst -intstyle ise -ifn "E:/Processor_project/processor7777/realCPU.xst" -ofn "E:/Processor_project/processor7777/realCPU.syr" 
+xst -intstyle ise -ifn "E:/Processor_project/processor7777/realCPU.xst" -ofn "E:/Processor_project/processor7777/realCPU.syr" 
+xst -intstyle ise -ifn "E:/Processor_project/processor7777/realCPU.xst" -ofn "E:/Processor_project/processor7777/realCPU.syr" 
+xst -intstyle ise -ifn "E:/Processor_project/processor7777/realCPU.xst" -ofn "E:/Processor_project/processor7777/realCPU.syr" 
+xst -intstyle ise -ifn "E:/Processor_project/processor7777/realCPU.xst" -ofn "E:/Processor_project/processor7777/realCPU.syr" 
+xst -intstyle ise -ifn "E:/Processor_project/processor7777/realCPU.xst" -ofn "E:/Processor_project/processor7777/realCPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc realCPU.ucf -p xc6slx45-csg324-3 realCPU.ngc realCPU.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o realCPU_map.ncd realCPU.ngd realCPU.pcf 
+par -w -intstyle ise -ol high -mt off realCPU_map.ncd realCPU.ncd realCPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml realCPU.twx realCPU.ncd -o realCPU.twr realCPU.pcf -ucf realCPU.ucf 
+bitgen -intstyle ise -f realCPU.ut realCPU.ncd 
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o realCPU_map.ncd realCPU.ngd realCPU.pcf 
+par -w -intstyle ise -ol high -mt off realCPU_map.ncd realCPU.ncd realCPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml realCPU.twx realCPU.ncd -o realCPU.twr realCPU.pcf -ucf realCPU.ucf 
+xst -intstyle ise -ifn "E:/Processor_project/processor7777/realCPU.xst" -ofn "E:/Processor_project/processor7777/realCPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc realCPU.ucf -p xc6slx45-csg324-3 realCPU.ngc realCPU.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o realCPU_map.ncd realCPU.ngd realCPU.pcf 
+par -w -intstyle ise -ol high -mt off realCPU_map.ncd realCPU.ncd realCPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml realCPU.twx realCPU.ncd -o realCPU.twr realCPU.pcf -ucf realCPU.ucf 
+bitgen -intstyle ise -f realCPU.ut realCPU.ncd 
+xst -intstyle ise -ifn "E:/Processor_project/processor7777/realCPU.xst" -ofn "E:/Processor_project/processor7777/realCPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc realCPU.ucf -p xc6slx45-csg324-3 realCPU.ngc realCPU.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o realCPU_map.ncd realCPU.ngd realCPU.pcf 
+par -w -intstyle ise -ol high -mt off realCPU_map.ncd realCPU.ncd realCPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml realCPU.twx realCPU.ncd -o realCPU.twr realCPU.pcf -ucf realCPU.ucf 
+bitgen -intstyle ise -f realCPU.ut realCPU.ncd 
+xst -intstyle ise -ifn "E:/Processor_project/processor7777/realCPU.xst" -ofn "E:/Processor_project/processor7777/realCPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc realCPU.ucf -p xc6slx45-csg324-3 realCPU.ngc realCPU.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o realCPU_map.ncd realCPU.ngd realCPU.pcf 
+par -w -intstyle ise -ol high -mt off realCPU_map.ncd realCPU.ncd realCPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml realCPU.twx realCPU.ncd -o realCPU.twr realCPU.pcf -ucf realCPU.ucf 
+bitgen -intstyle ise -f realCPU.ut realCPU.ncd 
+xst -intstyle ise -ifn "E:/Processor_project/processor7777/realCPU.xst" -ofn "E:/Processor_project/processor7777/realCPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc realCPU.ucf -p xc6slx45-csg324-3 realCPU.ngc realCPU.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o realCPU_map.ncd realCPU.ngd realCPU.pcf 
+par -w -intstyle ise -ol high -mt off realCPU_map.ncd realCPU.ncd realCPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml realCPU.twx realCPU.ncd -o realCPU.twr realCPU.pcf -ucf realCPU.ucf 
+bitgen -intstyle ise -f realCPU.ut realCPU.ncd 
+xst -intstyle ise -ifn "E:/Processor_project/processor7777/realCPU.xst" -ofn "E:/Processor_project/processor7777/realCPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc realCPU.ucf -p xc6slx45-csg324-3 realCPU.ngc realCPU.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o realCPU_map.ncd realCPU.ngd realCPU.pcf 
+par -w -intstyle ise -ol high -mt off realCPU_map.ncd realCPU.ncd realCPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml realCPU.twx realCPU.ncd -o realCPU.twr realCPU.pcf -ucf realCPU.ucf 
+bitgen -intstyle ise -f realCPU.ut realCPU.ncd 
+xst -intstyle ise -ifn "E:/Processor_project/processor7777/realCPU.xst" -ofn "E:/Processor_project/processor7777/realCPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc realCPU.ucf -p xc6slx45-csg324-3 realCPU.ngc realCPU.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o realCPU_map.ncd realCPU.ngd realCPU.pcf 
+par -w -intstyle ise -ol high -mt off realCPU_map.ncd realCPU.ncd realCPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml realCPU.twx realCPU.ncd -o realCPU.twr realCPU.pcf -ucf realCPU.ucf 
+bitgen -intstyle ise -f realCPU.ut realCPU.ncd 
+xst -intstyle ise -ifn "E:/Processor_project/processor7777/realCPU.xst" -ofn "E:/Processor_project/processor7777/realCPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc realCPU.ucf -p xc6slx45-csg324-3 realCPU.ngc realCPU.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o realCPU_map.ncd realCPU.ngd realCPU.pcf 
+par -w -intstyle ise -ol high -mt off realCPU_map.ncd realCPU.ncd realCPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml realCPU.twx realCPU.ncd -o realCPU.twr realCPU.pcf -ucf realCPU.ucf 
+bitgen -intstyle ise -f realCPU.ut realCPU.ncd 
+xst -intstyle ise -ifn "E:/Processor_project/processor7777/realCPU.xst" -ofn "E:/Processor_project/processor7777/realCPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc realCPU.ucf -p xc6slx45-csg324-3 realCPU.ngc realCPU.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o realCPU_map.ncd realCPU.ngd realCPU.pcf 
+par -w -intstyle ise -ol high -mt off realCPU_map.ncd realCPU.ncd realCPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml realCPU.twx realCPU.ncd -o realCPU.twr realCPU.pcf -ucf realCPU.ucf 
+bitgen -intstyle ise -f realCPU.ut realCPU.ncd 
+xst -intstyle ise -ifn "E:/Processor_project/processor7777/realCPU.xst" -ofn "E:/Processor_project/processor7777/realCPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc realCPU.ucf -p xc6slx45-csg324-3 realCPU.ngc realCPU.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o realCPU_map.ncd realCPU.ngd realCPU.pcf 
+par -w -intstyle ise -ol high -mt off realCPU_map.ncd realCPU.ncd realCPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml realCPU.twx realCPU.ncd -o realCPU.twr realCPU.pcf -ucf realCPU.ucf 
+bitgen -intstyle ise -f realCPU.ut realCPU.ncd 
+xst -intstyle ise -ifn "E:/Processor_project/processor7777/realCPU.xst" -ofn "E:/Processor_project/processor7777/realCPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc realCPU.ucf -p xc6slx45-csg324-3 realCPU.ngc realCPU.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o realCPU_map.ncd realCPU.ngd realCPU.pcf 
+par -w -intstyle ise -ol high -mt off realCPU_map.ncd realCPU.ncd realCPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml realCPU.twx realCPU.ncd -o realCPU.twr realCPU.pcf -ucf realCPU.ucf 
+bitgen -intstyle ise -f realCPU.ut realCPU.ncd 
+xst -intstyle ise -ifn "E:/Processor_project/processor7777/realCPU.xst" -ofn "E:/Processor_project/processor7777/realCPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc realCPU.ucf -p xc6slx45-csg324-3 realCPU.ngc realCPU.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o realCPU_map.ncd realCPU.ngd realCPU.pcf 
+par -w -intstyle ise -ol high -mt off realCPU_map.ncd realCPU.ncd realCPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml realCPU.twx realCPU.ncd -o realCPU.twr realCPU.pcf -ucf realCPU.ucf 
+bitgen -intstyle ise -f realCPU.ut realCPU.ncd 
+xst -intstyle ise -ifn "E:/Processor_project/processor7777/realCPU.xst" -ofn "E:/Processor_project/processor7777/realCPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc realCPU.ucf -p xc6slx45-csg324-3 realCPU.ngc realCPU.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o realCPU_map.ncd realCPU.ngd realCPU.pcf 
+par -w -intstyle ise -ol high -mt off realCPU_map.ncd realCPU.ncd realCPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml realCPU.twx realCPU.ncd -o realCPU.twr realCPU.pcf -ucf realCPU.ucf 
+bitgen -intstyle ise -f realCPU.ut realCPU.ncd 
+xst -intstyle ise -ifn "E:/Processor_project/processor7777/realCPU.xst" -ofn "E:/Processor_project/processor7777/realCPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc realCPU.ucf -p xc6slx45-csg324-3 realCPU.ngc realCPU.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o realCPU_map.ncd realCPU.ngd realCPU.pcf 
+par -w -intstyle ise -ol high -mt off realCPU_map.ncd realCPU.ncd realCPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml realCPU.twx realCPU.ncd -o realCPU.twr realCPU.pcf -ucf realCPU.ucf 
+bitgen -intstyle ise -f realCPU.ut realCPU.ncd 
+xst -intstyle ise -ifn "E:/Processor_project/processor7777/realCPU.xst" -ofn "E:/Processor_project/processor7777/realCPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc realCPU.ucf -p xc6slx45-csg324-3 realCPU.ngc realCPU.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o realCPU_map.ncd realCPU.ngd realCPU.pcf 
+par -w -intstyle ise -ol high -mt off realCPU_map.ncd realCPU.ncd realCPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml realCPU.twx realCPU.ncd -o realCPU.twr realCPU.pcf -ucf realCPU.ucf 
+bitgen -intstyle ise -f realCPU.ut realCPU.ncd 
+xst -intstyle ise -ifn "E:/Processor_project/processor7777/realCPU.xst" -ofn "E:/Processor_project/processor7777/realCPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc realCPU.ucf -p xc6slx45-csg324-3 realCPU.ngc realCPU.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o realCPU_map.ncd realCPU.ngd realCPU.pcf 
+par -w -intstyle ise -ol high -mt off realCPU_map.ncd realCPU.ncd realCPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml realCPU.twx realCPU.ncd -o realCPU.twr realCPU.pcf -ucf realCPU.ucf 
+bitgen -intstyle ise -f realCPU.ut realCPU.ncd 
+xst -intstyle ise -ifn "E:/Processor_project/processor7777/realCPU.xst" -ofn "E:/Processor_project/processor7777/realCPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc realCPU.ucf -p xc6slx45-csg324-3 realCPU.ngc realCPU.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o realCPU_map.ncd realCPU.ngd realCPU.pcf 
+par -w -intstyle ise -ol high -mt off realCPU_map.ncd realCPU.ncd realCPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml realCPU.twx realCPU.ncd -o realCPU.twr realCPU.pcf -ucf realCPU.ucf 
+bitgen -intstyle ise -f realCPU.ut realCPU.ncd 
+xst -intstyle ise -ifn "E:/Processor_project/processor7777/realCPU.xst" -ofn "E:/Processor_project/processor7777/realCPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc realCPU.ucf -p xc6slx45-csg324-3 realCPU.ngc realCPU.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o realCPU_map.ncd realCPU.ngd realCPU.pcf 
+par -w -intstyle ise -ol high -mt off realCPU_map.ncd realCPU.ncd realCPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml realCPU.twx realCPU.ncd -o realCPU.twr realCPU.pcf -ucf realCPU.ucf 
+bitgen -intstyle ise -f realCPU.ut realCPU.ncd 
+xst -intstyle ise -ifn "E:/Processor_project/processor7777/realCPU.xst" -ofn "E:/Processor_project/processor7777/realCPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc realCPU.ucf -p xc6slx45-csg324-3 realCPU.ngc realCPU.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o realCPU_map.ncd realCPU.ngd realCPU.pcf 
+par -w -intstyle ise -ol high -mt off realCPU_map.ncd realCPU.ncd realCPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml realCPU.twx realCPU.ncd -o realCPU.twr realCPU.pcf -ucf realCPU.ucf 
+bitgen -intstyle ise -f realCPU.ut realCPU.ncd 
+xst -intstyle ise -ifn "E:/Processor_project/processor7777/realCPU.xst" -ofn "E:/Processor_project/processor7777/realCPU.syr" 
+xst -intstyle ise -ifn "E:/Processor_project/processor7777/realCPU.xst" -ofn "E:/Processor_project/processor7777/realCPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc realCPU.ucf -p xc6slx45-csg324-3 realCPU.ngc realCPU.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o realCPU_map.ncd realCPU.ngd realCPU.pcf 
+par -w -intstyle ise -ol high -mt off realCPU_map.ncd realCPU.ncd realCPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml realCPU.twx realCPU.ncd -o realCPU.twr realCPU.pcf -ucf realCPU.ucf 
+bitgen -intstyle ise -f realCPU.ut realCPU.ncd 
+xst -intstyle ise -ifn "E:/Processor_project/processor7777/realCPU.xst" -ofn "E:/Processor_project/processor7777/realCPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc realCPU.ucf -p xc6slx45-csg324-3 realCPU.ngc realCPU.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o realCPU_map.ncd realCPU.ngd realCPU.pcf 
+par -w -intstyle ise -ol high -mt off realCPU_map.ncd realCPU.ncd realCPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml realCPU.twx realCPU.ncd -o realCPU.twr realCPU.pcf -ucf realCPU.ucf 
+bitgen -intstyle ise -f realCPU.ut realCPU.ncd 
+xst -intstyle ise -ifn "E:/Processor_project/processor7777/realCPU.xst" -ofn "E:/Processor_project/processor7777/realCPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc realCPU.ucf -p xc6slx45-csg324-3 realCPU.ngc realCPU.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o realCPU_map.ncd realCPU.ngd realCPU.pcf 
+par -w -intstyle ise -ol high -mt off realCPU_map.ncd realCPU.ncd realCPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml realCPU.twx realCPU.ncd -o realCPU.twr realCPU.pcf -ucf realCPU.ucf 
+bitgen -intstyle ise -f realCPU.ut realCPU.ncd 
+xst -intstyle ise -ifn "E:/Processor_project/processor7777/realCPU.xst" -ofn "E:/Processor_project/processor7777/realCPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc realCPU.ucf -p xc6slx45-csg324-3 realCPU.ngc realCPU.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o realCPU_map.ncd realCPU.ngd realCPU.pcf 
+par -w -intstyle ise -ol high -mt off realCPU_map.ncd realCPU.ncd realCPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml realCPU.twx realCPU.ncd -o realCPU.twr realCPU.pcf -ucf realCPU.ucf 
+bitgen -intstyle ise -f realCPU.ut realCPU.ncd 
+xst -intstyle ise -ifn "E:/Processor_project/processor7777/realCPU.xst" -ofn "E:/Processor_project/processor7777/realCPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc realCPU.ucf -p xc6slx45-csg324-3 realCPU.ngc realCPU.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o realCPU_map.ncd realCPU.ngd realCPU.pcf 
+par -w -intstyle ise -ol high -mt off realCPU_map.ncd realCPU.ncd realCPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml realCPU.twx realCPU.ncd -o realCPU.twr realCPU.pcf -ucf realCPU.ucf 
+bitgen -intstyle ise -f realCPU.ut realCPU.ncd 
+xst -intstyle ise -ifn "E:/Processor_project/processor7777/realCPU.xst" -ofn "E:/Processor_project/processor7777/realCPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc realCPU.ucf -p xc6slx45-csg324-3 realCPU.ngc realCPU.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o realCPU_map.ncd realCPU.ngd realCPU.pcf 
+par -w -intstyle ise -ol high -mt off realCPU_map.ncd realCPU.ncd realCPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml realCPU.twx realCPU.ncd -o realCPU.twr realCPU.pcf -ucf realCPU.ucf 
+bitgen -intstyle ise -f realCPU.ut realCPU.ncd 
+xst -intstyle ise -ifn "E:/Processor_project/processor7777/realCPU.xst" -ofn "E:/Processor_project/processor7777/realCPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc realCPU.ucf -p xc6slx45-csg324-3 realCPU.ngc realCPU.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o realCPU_map.ncd realCPU.ngd realCPU.pcf 
+par -w -intstyle ise -ol high -mt off realCPU_map.ncd realCPU.ncd realCPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml realCPU.twx realCPU.ncd -o realCPU.twr realCPU.pcf -ucf realCPU.ucf 
+bitgen -intstyle ise -f realCPU.ut realCPU.ncd 
+xst -intstyle ise -ifn "E:/Processor_project/processor7777/realCPU.xst" -ofn "E:/Processor_project/processor7777/realCPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc realCPU.ucf -p xc6slx45-csg324-3 realCPU.ngc realCPU.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o realCPU_map.ncd realCPU.ngd realCPU.pcf 
+par -w -intstyle ise -ol high -mt off realCPU_map.ncd realCPU.ncd realCPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml realCPU.twx realCPU.ncd -o realCPU.twr realCPU.pcf -ucf realCPU.ucf 
+bitgen -intstyle ise -f realCPU.ut realCPU.ncd 
+xst -intstyle ise -ifn "E:/Processor_project/processor7777/realCPU.xst" -ofn "E:/Processor_project/processor7777/realCPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc realCPU.ucf -p xc6slx45-csg324-3 realCPU.ngc realCPU.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o realCPU_map.ncd realCPU.ngd realCPU.pcf 
+par -w -intstyle ise -ol high -mt off realCPU_map.ncd realCPU.ncd realCPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml realCPU.twx realCPU.ncd -o realCPU.twr realCPU.pcf -ucf realCPU.ucf 
+bitgen -intstyle ise -f realCPU.ut realCPU.ncd 
+xst -intstyle ise -ifn "E:/Processor_project/processor7777/realCPU.xst" -ofn "E:/Processor_project/processor7777/realCPU.syr" 
+xst -intstyle ise -ifn "E:/Processor_project/processor7777/realCPU.xst" -ofn "E:/Processor_project/processor7777/realCPU.syr" 
+xst -intstyle ise -ifn "E:/Processor_project/processor7777/realCPU.xst" -ofn "E:/Processor_project/processor7777/realCPU.syr" 
+xst -intstyle ise -ifn "E:/Processor_project/processor7777/realCPU.xst" -ofn "E:/Processor_project/processor7777/realCPU.syr" 
+xst -intstyle ise -ifn "E:/Processor_project/processor7777/realCPU.xst" -ofn "E:/Processor_project/processor7777/realCPU.syr" 
+xst -intstyle ise -ifn "E:/Processor_project/processor7777/realCPU.xst" -ofn "E:/Processor_project/processor7777/realCPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc realCPU.ucf -p xc6slx45-csg324-3 realCPU.ngc realCPU.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o realCPU_map.ncd realCPU.ngd realCPU.pcf 
+par -w -intstyle ise -ol high -mt off realCPU_map.ncd realCPU.ncd realCPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml realCPU.twx realCPU.ncd -o realCPU.twr realCPU.pcf -ucf realCPU.ucf 
+bitgen -intstyle ise -f realCPU.ut realCPU.ncd 
+xst -intstyle ise -ifn "E:/Processor_project/processor7777/realCPU.xst" -ofn "E:/Processor_project/processor7777/realCPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc realCPU.ucf -p xc6slx45-csg324-3 realCPU.ngc realCPU.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o realCPU_map.ncd realCPU.ngd realCPU.pcf 
+par -w -intstyle ise -ol high -mt off realCPU_map.ncd realCPU.ncd realCPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml realCPU.twx realCPU.ncd -o realCPU.twr realCPU.pcf -ucf realCPU.ucf 
+bitgen -intstyle ise -f realCPU.ut realCPU.ncd 
+xst -intstyle ise -ifn "E:/Processor_project/processor7777/realCPU.xst" -ofn "E:/Processor_project/processor7777/realCPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc realCPU.ucf -p xc6slx45-csg324-3 realCPU.ngc realCPU.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o realCPU_map.ncd realCPU.ngd realCPU.pcf 
+par -w -intstyle ise -ol high -mt off realCPU_map.ncd realCPU.ncd realCPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml realCPU.twx realCPU.ncd -o realCPU.twr realCPU.pcf -ucf realCPU.ucf 
+bitgen -intstyle ise -f realCPU.ut realCPU.ncd 
+xst -intstyle ise -ifn "E:/Processor_project/processor7777/realCPU.xst" -ofn "E:/Processor_project/processor7777/realCPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc realCPU.ucf -p xc6slx45-csg324-3 realCPU.ngc realCPU.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o realCPU_map.ncd realCPU.ngd realCPU.pcf 
+par -w -intstyle ise -ol high -mt off realCPU_map.ncd realCPU.ncd realCPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml realCPU.twx realCPU.ncd -o realCPU.twr realCPU.pcf -ucf realCPU.ucf 
+bitgen -intstyle ise -f realCPU.ut realCPU.ncd 
+xst -intstyle ise -ifn "E:/Processor_project/processor7777/realCPU.xst" -ofn "E:/Processor_project/processor7777/realCPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc realCPU.ucf -p xc6slx45-csg324-3 realCPU.ngc realCPU.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o realCPU_map.ncd realCPU.ngd realCPU.pcf 
+par -w -intstyle ise -ol high -mt off realCPU_map.ncd realCPU.ncd realCPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml realCPU.twx realCPU.ncd -o realCPU.twr realCPU.pcf -ucf realCPU.ucf 
+bitgen -intstyle ise -f realCPU.ut realCPU.ncd 
+xst -intstyle ise -ifn "E:/Processor_project/processor7777/realCPU.xst" -ofn "E:/Processor_project/processor7777/realCPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc realCPU.ucf -p xc6slx45-csg324-3 realCPU.ngc realCPU.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o realCPU_map.ncd realCPU.ngd realCPU.pcf 
+par -w -intstyle ise -ol high -mt off realCPU_map.ncd realCPU.ncd realCPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml realCPU.twx realCPU.ncd -o realCPU.twr realCPU.pcf -ucf realCPU.ucf 
+bitgen -intstyle ise -f realCPU.ut realCPU.ncd 
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o realCPU_map.ncd realCPU.ngd realCPU.pcf 
+xst -intstyle ise -ifn "E:/Processor_project/processor7777/realCPU.xst" -ofn "E:/Processor_project/processor7777/realCPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc realCPU.ucf -p xc6slx45-csg324-3 realCPU.ngc realCPU.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o realCPU_map.ncd realCPU.ngd realCPU.pcf 
+par -w -intstyle ise -ol high -mt off realCPU_map.ncd realCPU.ncd realCPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml realCPU.twx realCPU.ncd -o realCPU.twr realCPU.pcf -ucf realCPU.ucf 
+bitgen -intstyle ise -f realCPU.ut realCPU.ncd 
+xst -intstyle ise -ifn "E:/Processor_project/processor7777/realCPU.xst" -ofn "E:/Processor_project/processor7777/realCPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc realCPU.ucf -p xc6slx45-csg324-3 realCPU.ngc realCPU.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o realCPU_map.ncd realCPU.ngd realCPU.pcf 
+par -w -intstyle ise -ol high -mt off realCPU_map.ncd realCPU.ncd realCPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml realCPU.twx realCPU.ncd -o realCPU.twr realCPU.pcf -ucf realCPU.ucf 
+bitgen -intstyle ise -f realCPU.ut realCPU.ncd 
+xst -intstyle ise -ifn "E:/Processor_project/processor7777/realCPU.xst" -ofn "E:/Processor_project/processor7777/realCPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc realCPU.ucf -p xc6slx45-csg324-3 realCPU.ngc realCPU.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o realCPU_map.ncd realCPU.ngd realCPU.pcf 
+par -w -intstyle ise -ol high -mt off realCPU_map.ncd realCPU.ncd realCPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml realCPU.twx realCPU.ncd -o realCPU.twr realCPU.pcf -ucf realCPU.ucf 
+bitgen -intstyle ise -f realCPU.ut realCPU.ncd 
+xst -intstyle ise -ifn "E:/Processor_project/processor7777/realCPU.xst" -ofn "E:/Processor_project/processor7777/realCPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc realCPU.ucf -p xc6slx45-csg324-3 realCPU.ngc realCPU.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o realCPU_map.ncd realCPU.ngd realCPU.pcf 
+par -w -intstyle ise -ol high -mt off realCPU_map.ncd realCPU.ncd realCPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml realCPU.twx realCPU.ncd -o realCPU.twr realCPU.pcf -ucf realCPU.ucf 
+bitgen -intstyle ise -f realCPU.ut realCPU.ncd 
+xst -intstyle ise -ifn "E:/Processor_project/processor7777/realCPU.xst" -ofn "E:/Processor_project/processor7777/realCPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc realCPU.ucf -p xc6slx45-csg324-3 realCPU.ngc realCPU.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o realCPU_map.ncd realCPU.ngd realCPU.pcf 
+par -w -intstyle ise -ol high -mt off realCPU_map.ncd realCPU.ncd realCPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml realCPU.twx realCPU.ncd -o realCPU.twr realCPU.pcf -ucf realCPU.ucf 
+bitgen -intstyle ise -f realCPU.ut realCPU.ncd 
+xst -intstyle ise -ifn "E:/Processor_project/processor7777/realCPU.xst" -ofn "E:/Processor_project/processor7777/realCPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc realCPU.ucf -p xc6slx45-csg324-3 realCPU.ngc realCPU.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o realCPU_map.ncd realCPU.ngd realCPU.pcf 
+par -w -intstyle ise -ol high -mt off realCPU_map.ncd realCPU.ncd realCPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml realCPU.twx realCPU.ncd -o realCPU.twr realCPU.pcf -ucf realCPU.ucf 
+bitgen -intstyle ise -f realCPU.ut realCPU.ncd 
+xst -intstyle ise -ifn "E:/Processor_project/processor7777/realCPU.xst" -ofn "E:/Processor_project/processor7777/realCPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc realCPU.ucf -p xc6slx45-csg324-3 realCPU.ngc realCPU.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o realCPU_map.ncd realCPU.ngd realCPU.pcf 
+par -w -intstyle ise -ol high -mt off realCPU_map.ncd realCPU.ncd realCPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml realCPU.twx realCPU.ncd -o realCPU.twr realCPU.pcf -ucf realCPU.ucf 
+bitgen -intstyle ise -f realCPU.ut realCPU.ncd 
+xst -intstyle ise -ifn "E:/Processor_project/processor7777/realCPU.xst" -ofn "E:/Processor_project/processor7777/realCPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc realCPU.ucf -p xc6slx45-csg324-3 realCPU.ngc realCPU.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o realCPU_map.ncd realCPU.ngd realCPU.pcf 
+par -w -intstyle ise -ol high -mt off realCPU_map.ncd realCPU.ncd realCPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml realCPU.twx realCPU.ncd -o realCPU.twr realCPU.pcf -ucf realCPU.ucf 
+bitgen -intstyle ise -f realCPU.ut realCPU.ncd 
+xst -intstyle ise -ifn "E:/Processor_project/processor7777/realCPU.xst" -ofn "E:/Processor_project/processor7777/realCPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc realCPU.ucf -p xc6slx45-csg324-3 realCPU.ngc realCPU.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o realCPU_map.ncd realCPU.ngd realCPU.pcf 
+par -w -intstyle ise -ol high -mt off realCPU_map.ncd realCPU.ncd realCPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml realCPU.twx realCPU.ncd -o realCPU.twr realCPU.pcf -ucf realCPU.ucf 
+bitgen -intstyle ise -f realCPU.ut realCPU.ncd 
+xst -intstyle ise -ifn "E:/Processor_project/processor7777/realCPU.xst" -ofn "E:/Processor_project/processor7777/realCPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc realCPU.ucf -p xc6slx45-csg324-3 realCPU.ngc realCPU.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o realCPU_map.ncd realCPU.ngd realCPU.pcf 
+par -w -intstyle ise -ol high -mt off realCPU_map.ncd realCPU.ncd realCPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml realCPU.twx realCPU.ncd -o realCPU.twr realCPU.pcf -ucf realCPU.ucf 
+bitgen -intstyle ise -f realCPU.ut realCPU.ncd 
+xst -intstyle ise -ifn "E:/Processor_project/processor7777/realCPU.xst" -ofn "E:/Processor_project/processor7777/realCPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc realCPU.ucf -p xc6slx45-csg324-3 realCPU.ngc realCPU.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o realCPU_map.ncd realCPU.ngd realCPU.pcf 
+par -w -intstyle ise -ol high -mt off realCPU_map.ncd realCPU.ncd realCPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml realCPU.twx realCPU.ncd -o realCPU.twr realCPU.pcf -ucf realCPU.ucf 
+bitgen -intstyle ise -f realCPU.ut realCPU.ncd 
+xst -intstyle ise -ifn "E:/Processor_project/processor7777/realCPU.xst" -ofn "E:/Processor_project/processor7777/realCPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc realCPU.ucf -p xc6slx45-csg324-3 realCPU.ngc realCPU.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o realCPU_map.ncd realCPU.ngd realCPU.pcf 
+par -w -intstyle ise -ol high -mt off realCPU_map.ncd realCPU.ncd realCPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml realCPU.twx realCPU.ncd -o realCPU.twr realCPU.pcf -ucf realCPU.ucf 
+bitgen -intstyle ise -f realCPU.ut realCPU.ncd 
+xst -intstyle ise -ifn "E:/Processor_project/processor7777/realCPU.xst" -ofn "E:/Processor_project/processor7777/realCPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc realCPU.ucf -p xc6slx45-csg324-3 realCPU.ngc realCPU.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o realCPU_map.ncd realCPU.ngd realCPU.pcf 
+par -w -intstyle ise -ol high -mt off realCPU_map.ncd realCPU.ncd realCPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml realCPU.twx realCPU.ncd -o realCPU.twr realCPU.pcf -ucf realCPU.ucf 
+bitgen -intstyle ise -f realCPU.ut realCPU.ncd 
+xst -intstyle ise -ifn "E:/Processor_project/processor7777/realCPU.xst" -ofn "E:/Processor_project/processor7777/realCPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc realCPU.ucf -p xc6slx45-csg324-3 realCPU.ngc realCPU.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o realCPU_map.ncd realCPU.ngd realCPU.pcf 
+par -w -intstyle ise -ol high -mt off realCPU_map.ncd realCPU.ncd realCPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml realCPU.twx realCPU.ncd -o realCPU.twr realCPU.pcf -ucf realCPU.ucf 
+bitgen -intstyle ise -f realCPU.ut realCPU.ncd 
+xst -intstyle ise -ifn "E:/Processor_project/processor7777/realCPU.xst" -ofn "E:/Processor_project/processor7777/realCPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc realCPU.ucf -p xc6slx45-csg324-3 realCPU.ngc realCPU.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o realCPU_map.ncd realCPU.ngd realCPU.pcf 
+par -w -intstyle ise -ol high -mt off realCPU_map.ncd realCPU.ncd realCPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml realCPU.twx realCPU.ncd -o realCPU.twr realCPU.pcf -ucf realCPU.ucf 
+bitgen -intstyle ise -f realCPU.ut realCPU.ncd 
+xst -intstyle ise -ifn "E:/Processor_project/processor7777/realCPU.xst" -ofn "E:/Processor_project/processor7777/realCPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc realCPU.ucf -p xc6slx45-csg324-3 realCPU.ngc realCPU.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o realCPU_map.ncd realCPU.ngd realCPU.pcf 
+par -w -intstyle ise -ol high -mt off realCPU_map.ncd realCPU.ncd realCPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml realCPU.twx realCPU.ncd -o realCPU.twr realCPU.pcf -ucf realCPU.ucf 
+bitgen -intstyle ise -f realCPU.ut realCPU.ncd 
+xst -intstyle ise -ifn "E:/Processor_project/processor7777/realCPU.xst" -ofn "E:/Processor_project/processor7777/realCPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc realCPU.ucf -p xc6slx45-csg324-3 realCPU.ngc realCPU.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o realCPU_map.ncd realCPU.ngd realCPU.pcf 
+par -w -intstyle ise -ol high -mt off realCPU_map.ncd realCPU.ncd realCPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml realCPU.twx realCPU.ncd -o realCPU.twr realCPU.pcf -ucf realCPU.ucf 
+bitgen -intstyle ise -f realCPU.ut realCPU.ncd 
+xst -intstyle ise -ifn "E:/Processor_project/processor7777/realCPU.xst" -ofn "E:/Processor_project/processor7777/realCPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc realCPU.ucf -p xc6slx45-csg324-3 realCPU.ngc realCPU.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o realCPU_map.ncd realCPU.ngd realCPU.pcf 
+par -w -intstyle ise -ol high -mt off realCPU_map.ncd realCPU.ncd realCPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml realCPU.twx realCPU.ncd -o realCPU.twr realCPU.pcf -ucf realCPU.ucf 
+bitgen -intstyle ise -f realCPU.ut realCPU.ncd 
+xst -intstyle ise -ifn "E:/Processor_project/processor7777/realCPU.xst" -ofn "E:/Processor_project/processor7777/realCPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc realCPU.ucf -p xc6slx45-csg324-3 realCPU.ngc realCPU.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o realCPU_map.ncd realCPU.ngd realCPU.pcf 
+par -w -intstyle ise -ol high -mt off realCPU_map.ncd realCPU.ncd realCPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml realCPU.twx realCPU.ncd -o realCPU.twr realCPU.pcf -ucf realCPU.ucf 
+bitgen -intstyle ise -f realCPU.ut realCPU.ncd 
+xst -intstyle ise -ifn "E:/Processor_project/processor7777/realCPU.xst" -ofn "E:/Processor_project/processor7777/realCPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc realCPU.ucf -p xc6slx45-csg324-3 realCPU.ngc realCPU.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o realCPU_map.ncd realCPU.ngd realCPU.pcf 
+par -w -intstyle ise -ol high -mt off realCPU_map.ncd realCPU.ncd realCPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml realCPU.twx realCPU.ncd -o realCPU.twr realCPU.pcf -ucf realCPU.ucf 
+bitgen -intstyle ise -f realCPU.ut realCPU.ncd 
+xst -intstyle ise -ifn "E:/Processor_project/processor7777/realCPU.xst" -ofn "E:/Processor_project/processor7777/realCPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc realCPU.ucf -p xc6slx45-csg324-3 realCPU.ngc realCPU.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o realCPU_map.ncd realCPU.ngd realCPU.pcf 
+par -w -intstyle ise -ol high -mt off realCPU_map.ncd realCPU.ncd realCPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml realCPU.twx realCPU.ncd -o realCPU.twr realCPU.pcf -ucf realCPU.ucf 
+bitgen -intstyle ise -f realCPU.ut realCPU.ncd 
+xst -intstyle ise -ifn "E:/Processor_project/processor7777/realCPU.xst" -ofn "E:/Processor_project/processor7777/realCPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc realCPU.ucf -p xc6slx45-csg324-3 realCPU.ngc realCPU.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o realCPU_map.ncd realCPU.ngd realCPU.pcf 
+par -w -intstyle ise -ol high -mt off realCPU_map.ncd realCPU.ncd realCPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml realCPU.twx realCPU.ncd -o realCPU.twr realCPU.pcf -ucf realCPU.ucf 
+bitgen -intstyle ise -f realCPU.ut realCPU.ncd 
+xst -intstyle ise -ifn "E:/Processor_project/processor7777/realCPU.xst" -ofn "E:/Processor_project/processor7777/realCPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc realCPU.ucf -p xc6slx45-csg324-3 realCPU.ngc realCPU.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o realCPU_map.ncd realCPU.ngd realCPU.pcf 
+par -w -intstyle ise -ol high -mt off realCPU_map.ncd realCPU.ncd realCPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml realCPU.twx realCPU.ncd -o realCPU.twr realCPU.pcf -ucf realCPU.ucf 
+bitgen -intstyle ise -f realCPU.ut realCPU.ncd 
+xst -intstyle ise -ifn "E:/Processor_project/processor7777/realCPU.xst" -ofn "E:/Processor_project/processor7777/realCPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc realCPU.ucf -p xc6slx45-csg324-3 realCPU.ngc realCPU.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o realCPU_map.ncd realCPU.ngd realCPU.pcf 
+par -w -intstyle ise -ol high -mt off realCPU_map.ncd realCPU.ncd realCPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml realCPU.twx realCPU.ncd -o realCPU.twr realCPU.pcf -ucf realCPU.ucf 
+bitgen -intstyle ise -f realCPU.ut realCPU.ncd 
+xst -intstyle ise -ifn "E:/Processor_project/processor7777/realCPU.xst" -ofn "E:/Processor_project/processor7777/realCPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc realCPU.ucf -p xc6slx45-csg324-3 realCPU.ngc realCPU.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o realCPU_map.ncd realCPU.ngd realCPU.pcf 
+par -w -intstyle ise -ol high -mt off realCPU_map.ncd realCPU.ncd realCPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml realCPU.twx realCPU.ncd -o realCPU.twr realCPU.pcf -ucf realCPU.ucf 
+bitgen -intstyle ise -f realCPU.ut realCPU.ncd 
+xst -intstyle ise -ifn "E:/Processor_project/processor7777/realCPU.xst" -ofn "E:/Processor_project/processor7777/realCPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc realCPU.ucf -p xc6slx45-csg324-3 realCPU.ngc realCPU.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o realCPU_map.ncd realCPU.ngd realCPU.pcf 
+par -w -intstyle ise -ol high -mt off realCPU_map.ncd realCPU.ncd realCPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml realCPU.twx realCPU.ncd -o realCPU.twr realCPU.pcf -ucf realCPU.ucf 
+bitgen -intstyle ise -f realCPU.ut realCPU.ncd 
+xst -intstyle ise -ifn "E:/Processor_project/processor7777/realCPU.xst" -ofn "E:/Processor_project/processor7777/realCPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc realCPU.ucf -p xc6slx45-csg324-3 realCPU.ngc realCPU.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o realCPU_map.ncd realCPU.ngd realCPU.pcf 
+par -w -intstyle ise -ol high -mt off realCPU_map.ncd realCPU.ncd realCPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml realCPU.twx realCPU.ncd -o realCPU.twr realCPU.pcf -ucf realCPU.ucf 
+bitgen -intstyle ise -f realCPU.ut realCPU.ncd 
+xst -intstyle ise -ifn "E:/Processor_project/processor7777/realCPU.xst" -ofn "E:/Processor_project/processor7777/realCPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc realCPU.ucf -p xc6slx45-csg324-3 realCPU.ngc realCPU.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o realCPU_map.ncd realCPU.ngd realCPU.pcf 
+par -w -intstyle ise -ol high -mt off realCPU_map.ncd realCPU.ncd realCPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml realCPU.twx realCPU.ncd -o realCPU.twr realCPU.pcf -ucf realCPU.ucf 
+bitgen -intstyle ise -f realCPU.ut realCPU.ncd 
+xst -intstyle ise -ifn "E:/Processor_project/processor7777/realCPU.xst" -ofn "E:/Processor_project/processor7777/realCPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc realCPU.ucf -p xc6slx45-csg324-3 realCPU.ngc realCPU.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o realCPU_map.ncd realCPU.ngd realCPU.pcf 
+par -w -intstyle ise -ol high -mt off realCPU_map.ncd realCPU.ncd realCPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml realCPU.twx realCPU.ncd -o realCPU.twr realCPU.pcf -ucf realCPU.ucf 
+bitgen -intstyle ise -f realCPU.ut realCPU.ncd 
+xst -intstyle ise -ifn "E:/Processor_project/processor7777/realCPU.xst" -ofn "E:/Processor_project/processor7777/realCPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc realCPU.ucf -p xc6slx45-csg324-3 realCPU.ngc realCPU.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o realCPU_map.ncd realCPU.ngd realCPU.pcf 
+par -w -intstyle ise -ol high -mt off realCPU_map.ncd realCPU.ncd realCPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml realCPU.twx realCPU.ncd -o realCPU.twr realCPU.pcf -ucf realCPU.ucf 
+bitgen -intstyle ise -f realCPU.ut realCPU.ncd 
+xst -intstyle ise -ifn "E:/Processor_project/processor7777/realCPU.xst" -ofn "E:/Processor_project/processor7777/realCPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc realCPU.ucf -p xc6slx45-csg324-3 realCPU.ngc realCPU.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o realCPU_map.ncd realCPU.ngd realCPU.pcf 
+par -w -intstyle ise -ol high -mt off realCPU_map.ncd realCPU.ncd realCPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml realCPU.twx realCPU.ncd -o realCPU.twr realCPU.pcf -ucf realCPU.ucf 
+bitgen -intstyle ise -f realCPU.ut realCPU.ncd 
+xst -intstyle ise -ifn "E:/Processor_project/processor7777/realCPU.xst" -ofn "E:/Processor_project/processor7777/realCPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc realCPU.ucf -p xc6slx45-csg324-3 realCPU.ngc realCPU.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o realCPU_map.ncd realCPU.ngd realCPU.pcf 
+par -w -intstyle ise -ol high -mt off realCPU_map.ncd realCPU.ncd realCPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml realCPU.twx realCPU.ncd -o realCPU.twr realCPU.pcf -ucf realCPU.ucf 
+bitgen -intstyle ise -f realCPU.ut realCPU.ncd 
+xst -intstyle ise -ifn "E:/Processor_project/processor7777/realCPU.xst" -ofn "E:/Processor_project/processor7777/realCPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc realCPU.ucf -p xc6slx45-csg324-3 realCPU.ngc realCPU.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o realCPU_map.ncd realCPU.ngd realCPU.pcf 
+par -w -intstyle ise -ol high -mt off realCPU_map.ncd realCPU.ncd realCPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml realCPU.twx realCPU.ncd -o realCPU.twr realCPU.pcf -ucf realCPU.ucf 
+bitgen -intstyle ise -f realCPU.ut realCPU.ncd 
+xst -intstyle ise -ifn "E:/Processor_project/processor7777/realCPU.xst" -ofn "E:/Processor_project/processor7777/realCPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc realCPU.ucf -p xc6slx45-csg324-3 realCPU.ngc realCPU.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o realCPU_map.ncd realCPU.ngd realCPU.pcf 
+par -w -intstyle ise -ol high -mt off realCPU_map.ncd realCPU.ncd realCPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml realCPU.twx realCPU.ncd -o realCPU.twr realCPU.pcf -ucf realCPU.ucf 
+bitgen -intstyle ise -f realCPU.ut realCPU.ncd 
+xst -intstyle ise -ifn "E:/Processor_project/processor7777/realCPU.xst" -ofn "E:/Processor_project/processor7777/realCPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc realCPU.ucf -p xc6slx45-csg324-3 realCPU.ngc realCPU.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o realCPU_map.ncd realCPU.ngd realCPU.pcf 
+par -w -intstyle ise -ol high -mt off realCPU_map.ncd realCPU.ncd realCPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml realCPU.twx realCPU.ncd -o realCPU.twr realCPU.pcf -ucf realCPU.ucf 
+bitgen -intstyle ise -f realCPU.ut realCPU.ncd 
+xst -intstyle ise -ifn "E:/Processor_project/processor7777/realCPU.xst" -ofn "E:/Processor_project/processor7777/realCPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc realCPU.ucf -p xc6slx45-csg324-3 realCPU.ngc realCPU.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o realCPU_map.ncd realCPU.ngd realCPU.pcf 
+par -w -intstyle ise -ol high -mt off realCPU_map.ncd realCPU.ncd realCPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml realCPU.twx realCPU.ncd -o realCPU.twr realCPU.pcf -ucf realCPU.ucf 
+bitgen -intstyle ise -f realCPU.ut realCPU.ncd 
+xst -intstyle ise -ifn "E:/Processor_project/processor7777/realCPU.xst" -ofn "E:/Processor_project/processor7777/realCPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc realCPU.ucf -p xc6slx45-csg324-3 realCPU.ngc realCPU.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o realCPU_map.ncd realCPU.ngd realCPU.pcf 
+par -w -intstyle ise -ol high -mt off realCPU_map.ncd realCPU.ncd realCPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml realCPU.twx realCPU.ncd -o realCPU.twr realCPU.pcf -ucf realCPU.ucf 
+bitgen -intstyle ise -f realCPU.ut realCPU.ncd 
+xst -intstyle ise -ifn "E:/Processor_project/processor7777/realCPU.xst" -ofn "E:/Processor_project/processor7777/realCPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc realCPU.ucf -p xc6slx45-csg324-3 realCPU.ngc realCPU.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o realCPU_map.ncd realCPU.ngd realCPU.pcf 
+par -w -intstyle ise -ol high -mt off realCPU_map.ncd realCPU.ncd realCPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml realCPU.twx realCPU.ncd -o realCPU.twr realCPU.pcf -ucf realCPU.ucf 
+bitgen -intstyle ise -f realCPU.ut realCPU.ncd 
+xst -intstyle ise -ifn "E:/Processor_project/processor7777/realCPU.xst" -ofn "E:/Processor_project/processor7777/realCPU.syr" 
+xst -intstyle ise -ifn "E:/Processor_project/processor7777/realCPU.xst" -ofn "E:/Processor_project/processor7777/realCPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc realCPU.ucf -p xc6slx45-csg324-3 realCPU.ngc realCPU.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o realCPU_map.ncd realCPU.ngd realCPU.pcf 
+par -w -intstyle ise -ol high -mt off realCPU_map.ncd realCPU.ncd realCPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml realCPU.twx realCPU.ncd -o realCPU.twr realCPU.pcf -ucf realCPU.ucf 
+bitgen -intstyle ise -f realCPU.ut realCPU.ncd 
+xst -intstyle ise -ifn "E:/Processor_project/processor7777/realCPU.xst" -ofn "E:/Processor_project/processor7777/realCPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc realCPU.ucf -p xc6slx45-csg324-3 realCPU.ngc realCPU.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o realCPU_map.ncd realCPU.ngd realCPU.pcf 
+par -w -intstyle ise -ol high -mt off realCPU_map.ncd realCPU.ncd realCPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml realCPU.twx realCPU.ncd -o realCPU.twr realCPU.pcf -ucf realCPU.ucf 
+bitgen -intstyle ise -f realCPU.ut realCPU.ncd 
+xst -intstyle ise -ifn "E:/Processor_project/processor7777/realCPU.xst" -ofn "E:/Processor_project/processor7777/realCPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc realCPU.ucf -p xc6slx45-csg324-3 realCPU.ngc realCPU.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o realCPU_map.ncd realCPU.ngd realCPU.pcf 
+par -w -intstyle ise -ol high -mt off realCPU_map.ncd realCPU.ncd realCPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml realCPU.twx realCPU.ncd -o realCPU.twr realCPU.pcf -ucf realCPU.ucf 
+bitgen -intstyle ise -f realCPU.ut realCPU.ncd 
+xst -intstyle ise -ifn "E:/Processor_project/processor7777/realCPU.xst" -ofn "E:/Processor_project/processor7777/realCPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc realCPU.ucf -p xc6slx45-csg324-3 realCPU.ngc realCPU.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o realCPU_map.ncd realCPU.ngd realCPU.pcf 
+par -w -intstyle ise -ol high -mt off realCPU_map.ncd realCPU.ncd realCPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml realCPU.twx realCPU.ncd -o realCPU.twr realCPU.pcf -ucf realCPU.ucf 
+bitgen -intstyle ise -f realCPU.ut realCPU.ncd 
+xst -intstyle ise -ifn "E:/Processor_project/processor7777/realCPU.xst" -ofn "E:/Processor_project/processor7777/realCPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc realCPU.ucf -p xc6slx45-csg324-3 realCPU.ngc realCPU.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o realCPU_map.ncd realCPU.ngd realCPU.pcf 
+par -w -intstyle ise -ol high -mt off realCPU_map.ncd realCPU.ncd realCPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml realCPU.twx realCPU.ncd -o realCPU.twr realCPU.pcf -ucf realCPU.ucf 
+bitgen -intstyle ise -f realCPU.ut realCPU.ncd 
+xst -intstyle ise -ifn "E:/Processor_project/processor7777/realCPU.xst" -ofn "E:/Processor_project/processor7777/realCPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc realCPU.ucf -p xc6slx45-csg324-3 realCPU.ngc realCPU.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o realCPU_map.ncd realCPU.ngd realCPU.pcf 
+par -w -intstyle ise -ol high -mt off realCPU_map.ncd realCPU.ncd realCPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml realCPU.twx realCPU.ncd -o realCPU.twr realCPU.pcf -ucf realCPU.ucf 
+bitgen -intstyle ise -f realCPU.ut realCPU.ncd 
+xst -intstyle ise -ifn "E:/Processor_project/processor7777/realCPU.xst" -ofn "E:/Processor_project/processor7777/realCPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc realCPU.ucf -p xc6slx45-csg324-3 realCPU.ngc realCPU.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o realCPU_map.ncd realCPU.ngd realCPU.pcf 
+par -w -intstyle ise -ol high -mt off realCPU_map.ncd realCPU.ncd realCPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml realCPU.twx realCPU.ncd -o realCPU.twr realCPU.pcf -ucf realCPU.ucf 
+bitgen -intstyle ise -f realCPU.ut realCPU.ncd 
+xst -intstyle ise -ifn "E:/Processor_project/processor7777/realCPU.xst" -ofn "E:/Processor_project/processor7777/realCPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc realCPU.ucf -p xc6slx45-csg324-3 realCPU.ngc realCPU.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o realCPU_map.ncd realCPU.ngd realCPU.pcf 
+par -w -intstyle ise -ol high -mt off realCPU_map.ncd realCPU.ncd realCPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml realCPU.twx realCPU.ncd -o realCPU.twr realCPU.pcf -ucf realCPU.ucf 
+bitgen -intstyle ise -f realCPU.ut realCPU.ncd 
+xst -intstyle ise -ifn "E:/Processor_project/processor7777/realCPU.xst" -ofn "E:/Processor_project/processor7777/realCPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc realCPU.ucf -p xc6slx45-csg324-3 realCPU.ngc realCPU.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o realCPU_map.ncd realCPU.ngd realCPU.pcf 
+par -w -intstyle ise -ol high -mt off realCPU_map.ncd realCPU.ncd realCPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml realCPU.twx realCPU.ncd -o realCPU.twr realCPU.pcf -ucf realCPU.ucf 
+bitgen -intstyle ise -f realCPU.ut realCPU.ncd 
+xst -intstyle ise -ifn "E:/Processor_project/processor7777/realCPU.xst" -ofn "E:/Processor_project/processor7777/realCPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc realCPU.ucf -p xc6slx45-csg324-3 realCPU.ngc realCPU.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o realCPU_map.ncd realCPU.ngd realCPU.pcf 
+par -w -intstyle ise -ol high -mt off realCPU_map.ncd realCPU.ncd realCPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml realCPU.twx realCPU.ncd -o realCPU.twr realCPU.pcf -ucf realCPU.ucf 
+bitgen -intstyle ise -f realCPU.ut realCPU.ncd 
+xst -intstyle ise -ifn "E:/Processor_project/processor7777/realCPU.xst" -ofn "E:/Processor_project/processor7777/realCPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc realCPU.ucf -p xc6slx45-csg324-3 realCPU.ngc realCPU.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o realCPU_map.ncd realCPU.ngd realCPU.pcf 
+par -w -intstyle ise -ol high -mt off realCPU_map.ncd realCPU.ncd realCPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml realCPU.twx realCPU.ncd -o realCPU.twr realCPU.pcf -ucf realCPU.ucf 
+bitgen -intstyle ise -f realCPU.ut realCPU.ncd 
+xst -intstyle ise -ifn "E:/Processor_project/processor7777/realCPU.xst" -ofn "E:/Processor_project/processor7777/realCPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc realCPU.ucf -p xc6slx45-csg324-3 realCPU.ngc realCPU.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o realCPU_map.ncd realCPU.ngd realCPU.pcf 
+par -w -intstyle ise -ol high -mt off realCPU_map.ncd realCPU.ncd realCPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml realCPU.twx realCPU.ncd -o realCPU.twr realCPU.pcf -ucf realCPU.ucf 
+bitgen -intstyle ise -f realCPU.ut realCPU.ncd 
+xst -intstyle ise -ifn "E:/Processor_project/processor7777/realCPU.xst" -ofn "E:/Processor_project/processor7777/realCPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc realCPU.ucf -p xc6slx45-csg324-3 realCPU.ngc realCPU.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o realCPU_map.ncd realCPU.ngd realCPU.pcf 
+par -w -intstyle ise -ol high -mt off realCPU_map.ncd realCPU.ncd realCPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml realCPU.twx realCPU.ncd -o realCPU.twr realCPU.pcf -ucf realCPU.ucf 
+bitgen -intstyle ise -f realCPU.ut realCPU.ncd 
+xst -intstyle ise -ifn "E:/Processor_project/processor7777/realCPU.xst" -ofn "E:/Processor_project/processor7777/realCPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc realCPU.ucf -p xc6slx45-csg324-3 realCPU.ngc realCPU.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o realCPU_map.ncd realCPU.ngd realCPU.pcf 
+par -w -intstyle ise -ol high -mt off realCPU_map.ncd realCPU.ncd realCPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml realCPU.twx realCPU.ncd -o realCPU.twr realCPU.pcf -ucf realCPU.ucf 
+bitgen -intstyle ise -f realCPU.ut realCPU.ncd 
+xst -intstyle ise -ifn "E:/Processor_project/processor7777/realCPU.xst" -ofn "E:/Processor_project/processor7777/realCPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc realCPU.ucf -p xc6slx45-csg324-3 realCPU.ngc realCPU.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o realCPU_map.ncd realCPU.ngd realCPU.pcf 
+par -w -intstyle ise -ol high -mt off realCPU_map.ncd realCPU.ncd realCPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml realCPU.twx realCPU.ncd -o realCPU.twr realCPU.pcf -ucf realCPU.ucf 
+bitgen -intstyle ise -f realCPU.ut realCPU.ncd 
+xst -intstyle ise -ifn "E:/Processor_project/processor7777/realCPU.xst" -ofn "E:/Processor_project/processor7777/realCPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc realCPU.ucf -p xc6slx45-csg324-3 realCPU.ngc realCPU.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o realCPU_map.ncd realCPU.ngd realCPU.pcf 
+par -w -intstyle ise -ol high -mt off realCPU_map.ncd realCPU.ncd realCPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml realCPU.twx realCPU.ncd -o realCPU.twr realCPU.pcf -ucf realCPU.ucf 
+bitgen -intstyle ise -f realCPU.ut realCPU.ncd 
+xst -intstyle ise -ifn "E:/Processor_project/processor7777/realCPU.xst" -ofn "E:/Processor_project/processor7777/realCPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc realCPU.ucf -p xc6slx45-csg324-3 realCPU.ngc realCPU.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o realCPU_map.ncd realCPU.ngd realCPU.pcf 
+par -w -intstyle ise -ol high -mt off realCPU_map.ncd realCPU.ncd realCPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml realCPU.twx realCPU.ncd -o realCPU.twr realCPU.pcf -ucf realCPU.ucf 
+bitgen -intstyle ise -f realCPU.ut realCPU.ncd 
+xst -intstyle ise -ifn "E:/Processor_project/processor7777/realCPU.xst" -ofn "E:/Processor_project/processor7777/realCPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc realCPU.ucf -p xc6slx45-csg324-3 realCPU.ngc realCPU.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o realCPU_map.ncd realCPU.ngd realCPU.pcf 
+par -w -intstyle ise -ol high -mt off realCPU_map.ncd realCPU.ncd realCPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml realCPU.twx realCPU.ncd -o realCPU.twr realCPU.pcf -ucf realCPU.ucf 
+bitgen -intstyle ise -f realCPU.ut realCPU.ncd 
+xst -intstyle ise -ifn "E:/Processor_project/processor7777/realCPU.xst" -ofn "E:/Processor_project/processor7777/realCPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc realCPU.ucf -p xc6slx45-csg324-3 realCPU.ngc realCPU.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o realCPU_map.ncd realCPU.ngd realCPU.pcf 
+par -w -intstyle ise -ol high -mt off realCPU_map.ncd realCPU.ncd realCPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml realCPU.twx realCPU.ncd -o realCPU.twr realCPU.pcf -ucf realCPU.ucf 
+bitgen -intstyle ise -f realCPU.ut realCPU.ncd 

@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "E:/Processor_project/processor7777/uart_tx.xst" -ofn "E:/Processor_project/processor7777/uart_tx.syr" 

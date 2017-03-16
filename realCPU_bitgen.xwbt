@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=E:\Processor_project\processor7777\realCPU.ncd
+OUTFILE=E:\Processor_project\processor7777\realCPU.bit
+FAMILY=Spartan6
+PART=xc6slx45-3csg324
+WORKINGDIR=E:\Processor_project\processor7777
+LICENSE=WebPack
+USER_INFO=__0_0_0
